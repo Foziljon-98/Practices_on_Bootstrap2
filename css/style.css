@@ -1,0 +1,90 @@
+header {
+    width: 100%;
+}
+.nav-link1 {
+    text-decoration: underline;
+    color: rgb(78, 69, 69);
+}
+
+.nav-link2{
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+
+.bottom{
+    width: 100%;
+}
+
+.bottom ul {
+    width: 100%;
+}
+
+.bottom ul li a {
+    text-decoration: underline;
+}
+main a {
+    text-decoration: underline;
+    color: blue;
+}
+
+footer a {
+    text-decoration: underline;
+    color: blue;
+}
+
+
+@media screen and (max-width: 996px){
+
+    .cards{
+        display: flex;
+        flex-direction: column;    
+    }
+} 
+
+@media screen and (max-width: 576px){
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        border-radius: 6px;
+        background-color: rgb(0, 0, 0);
+    }
+    .header_inner .bg-dark .col-lg-12 {
+        padding: 2px;
+    }
+
+    .header_inner h1 {
+        font-size: 18px;
+    }
+
+    .header_inner p {
+        font-size: 14px;
+    }
+    .header_inner a {
+        font-size: 13px;
+    }
+
+    .bottom {
+        text-align: center;
+    }
+
+    .row .block1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+        background-color: aqua; 
+    }
+    
+    .firehose {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .friehose_right {
+        margin-top: 30px;
+    }
+} 
